@@ -1,0 +1,52 @@
+<!--
+Nombre: Álvaro Navas Mendoza
+Curso: DAM1
+Fecha: 26/3/2025
+Ejercicio: Ejercicio 2
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Se añade la declaración XML para especificar la versión y la codificación -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- Se define el espacio de nombres para XHTML, evitando conflictos con XML -->
+
+    <head>
+        <title>Book Review</title>
+    </head>
+    
+    <body>
+        <div>
+            <!-- Se cambia <bookreview> por <div> para mantener la estructura HTML válida -->
+            <!-- Se evita el uso de etiquetas personalizadas dentro del HTML puro -->
+
+            <h1>Introducción a XML</h1>
+            <!-- Se cambia <title> por <h1> ya que <title> dentro del body no es válido en XHTML -->
+
+            <table border="1">
+                <!-- Se añade el atributo border para mejorar la visualización de la tabla -->
+
+                <tr align="center">
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Pages</th>
+                    <th>Date</th>
+                    <!-- Se cambia <td> por <th> en la fila de encabezado para mejorar la semántica -->
+                </tr>
+
+                <tr align="left">
+                    <td>Simon St. Laurent</td>
+                    <td>31.98</td>
+                    <td>352</td>
+                    <td>1998/01</td>
+                    <!-- Se eliminan las etiquetas <author>, <price>, <pages> y <date> dentro de <td> -->
+                    <!-- Estas etiquetas personalizadas no son válidas en HTML y causan conflicto -->
+                </tr>
+            </table>
+        </div>
+
+        <p>LENGUAJES DE MARCAS - CSS</p>
+        <!-- Se encapsula en <p> para que sea un texto bien estructurado dentro de HTML -->
+        
+    </body>
+</html>
+

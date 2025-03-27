@@ -1,0 +1,60 @@
+<!--
+Nombre: Álvaro Navas Mendoza
+Curso: DAM1
+Fecha: 26/3/2025
+Ejercicio: Ejercicio 1
+
+
+
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Catálogo de software informático -->
+<catalogo xmlns:os="http://www.example.com/os" xmlns:office="http://www.example.com/office">
+    
+    <!-- Sección de software de sistemas operativos -->
+    <os:software>
+        <!-- Definición de un sistema operativo -->
+        <os:nombre>Windows 11</os:nombre>
+        <os:version>21H2</os:version>
+        <os:desarrollador>Microsoft</os:desarrollador>
+        <os:url>https://www.microsoft.com/windows</os:url>
+    </os:software>
+    <os:software>
+        <!-- Definición de un sistema operativo -->
+        <os:nombre>Ubuntu</os:nombre>
+        <os:version>22.04 LTS</os:version>
+        <os:desarrollador>Canonical</os:desarrollador>
+        <os:url>https://ubuntu.com/</os:url>
+    </os:software>
+    <os:software>
+        <!-- Definición de un sistema operativo -->
+        <os:nombre>macOS Ventura</os:nombre>
+        <os:version>13.0</os:version>
+        <os:desarrollador>Apple</os:desarrollador>
+        <os:url>https://www.apple.com/macos/</os:url>
+    </os:software>
+    
+    <!-- Sección de software de aplicaciones de oficina -->
+    <office:software>
+        <!-- Definición de una aplicación de oficina -->
+        <office:nombre>Microsoft Word</office:nombre>
+        <office:version>2021</office:version>
+        <office:desarrollador>Microsoft</office:desarrollador>
+        <office:url>https://www.microsoft.com/microsoft-365/word</office:url>
+    </office:software>
+    <office:software>
+        <!-- Definición de una aplicación de oficina -->
+        <office:nombre>LibreOffice Writer</office:nombre>
+        <office:version>7.5</office:version>
+        <office:desarrollador>The Document Foundation</office:desarrollador>
+        <office:url>https://www.libreoffice.org/</office:url>
+    </office:software>
+    <office:software>
+        <!-- Definición de una aplicación de oficina -->
+        <office:nombre>Google Docs</office:nombre>
+        <office:version>N/A</office:version>
+        <office:desarrollador>Google</office:desarrollador>
+        <office:url>https://docs.google.com/</office:url>
+    </office:software>
+</catalogo>
